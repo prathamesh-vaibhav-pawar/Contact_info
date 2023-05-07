@@ -1,0 +1,17 @@
+.head{
+    color: white;
+}
+.container{
+    border: solid 1px lightgray;
+    padding:150px;
+    height: 720px;
+    background-color: rgba(99, 94, 94, 0.1);
+}
+.btn{
+    float: right;
+}
+.div1{
+    background-color: limegreen;
+    font-size: x-large;
+    border-radius: 10px;
+}

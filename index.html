@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+            <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+        <link rel="stylesheet" href="style.css">
+        <script src="main.js"></script>
+    <title>Document</title>
+</head>
+<body style="background-image: linear-gradient(to bottom right,#06283D,#256D85,#47B5FF);">
+    <center>
+        <h2 class="head">Contact Book <span class="glyphicon glyphicon-book"></span></h2>
+    <div class="container">
+        <button class="btn btn-info btn" onclick="reset()">reset</button>
+        <h2>Add New Contact</h2><br><br>
+        <input type="text" placeholder="Name" id="name"> <input type="number" placeholder="Number" id="number"><br><br>
+        <input type="submit" onclick="Submit()"><br>
+        <div id="Error"></div>
+        <br><br>
+        <hr>
+        <br>
+        <h2>Get Contact Details</h2>
+        <br><br>
+        <input type="text" placeholder="Search Contact Name" id="Usr_name">&nbsp;&nbsp;<button onclick="Search()">Get Detail</button>
+        <div id="Info"></div>
+    </div>
+</center>
+</body>
+</html>
